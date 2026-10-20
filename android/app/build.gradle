@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.kin.compass"
+    namespace = "com.kin.comapp"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -37,7 +37,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.kin.compass"
+        applicationId = "com.kin.comapp"
         minSdk = 24
         targetSdk = 35
         versionCode = flutterVersionCode.toInteger()
